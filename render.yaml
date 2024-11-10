@@ -18,6 +18,7 @@ services:
         sync: false
         required: true
       - key: DATABASE_URL
-        sync: false
-        required: true
+        fromDatabase:
+          name: mydatabase
+          property: connectionString
         
