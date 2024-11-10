@@ -21,4 +21,3 @@ services:
         fromDatabase:
           name: mydatabase
           property: connectionString
-        
